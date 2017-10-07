@@ -1,0 +1,62 @@
+{
+    margin: 0;
+    padding: 0; 
+}
+
+/*selektor elementu*/
+p{ 
+    font-size: 20px;
+}
+
+/*selektor indetyfikatora*/
+
+#testowy {
+    background-color: aqua;
+}
+
+/*selektor klasy*/
+
+.testowy_inner {
+    color: blue;
+    font-size: 36px;
+    
+}
+
+/*selektor potomka*/
+#selektor_potomka p{
+    font-size: 25px;
+    color: red;
+}
+
+/*selektor dziecka / bezposredniego potomka*/
+
+#selektor_dziecka > p {
+    font-size: 40px;
+    color: violet;
+}
+
+/*selektor brata / braci*/
+#selektor_braci span + p {
+    color: green;
+    background-color:yellow;
+}
+
+#pseudoelementy h1::before {
+    content: 'lorem ';
+    color: red;
+}
+
+#pseudoelementy h1::after {
+    content: ' lorem ';
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
