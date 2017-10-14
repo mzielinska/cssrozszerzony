@@ -1,6 +1,3 @@
-* {
-    box-sizing: border-box;
-}
 
 body {
     font-family: Lato, sans-serif;
@@ -128,24 +125,87 @@ section article p {
 #portfolio {
     font-size: 0;
 }
+/*Magiczne akcje*/
+#portfolio .zdjecia .item-mask {
+    background-color: rgba(42,61,79,0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    font-size: initial;
+}
+
+#portfolio .zdjecia .item-mask:hover {
+    opacity: 1;
+}
+
+#portfolio .zdjecia item-mask .item-content {
+    border: 1px solid #fff;
+    margin: 10px;
+    height: 300px;
+    position: relative;
+}
+
+#portfolio .zdjecia .item-mask .item-content .item-content-inner {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    padding: 5px;
+    
+}
+
 /*Stopka*/    
 
 footer {
     padding: 30px;
+    height:300px;
     background-color: #213b50;
     color: white;
 }
 footer  #kontakt #name {
     font-size: 20px;
 }
-footer #kontakt 
+footer #kontakt_info {
+    float: left;
+    width:48%;
+}
 #formularz {
-    float: right;
+    float: left;
+    width:48%;
 }
 #formularz input {
+    background-color: #2B4A64;
+    padding: 5px 10px;
+    font-size: 15px;
     display: block;
     width:100%;
+    border:0;
+    margin-bottom: 10px;
+    
 }
-#przycisk {
-    width: 30px;
+#formularz input #przycisk {
+    background-color: limegreen;
+}
+#formularz input[placeholder]{
+    color: white !important;
+    
+}
+#formularz #tekstwiadomosci {
+    height: 100px;
+}
+#formularz input[type=submit] {
+    width: 20%;
+    background: lawngreen;
+}
+
+#socialmedia i {
+    padding: 10px;
+}
+
+#kontaktsekcja {
+    display: inline-block;
 }

@@ -6,7 +6,7 @@
     <title>Moje Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400|Roboto:100,300,400" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -67,7 +67,7 @@
             </figure>
             <figure>
                 <img src="images/icons/js.png" alt="js">
-            <figcaption>JavaScript</figcaption>
+                <figcaption>JavaScript</figcaption>
             </figure>
             <figure>
                 <img src="images/icons/jquery.png" alt="jquery">
@@ -81,37 +81,101 @@
         <h3 class="podtytul">Moje
             <span class="green">portfolio</span>
         </h3>
-        <div id = "zdjecie1" class ="zdjecia">  
+        <div id="zdjecie1" class="zdjecia">
+            <div class="item-mask">
+                <div class="item-content">
+                    <div class="item-content-inner">
+                        <h3>Lorem ipsum.</h3>
+                        <p class="project-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure molestias, hic eius aliquid omnis dolores temporibus numquam, odit ratione. Repellendus deserunt dolores obcaecati eius modi ratione, accusamus nobis, sapiente excepturi!
+                        </p>
+                        <h4>Wykorzystane technologie:</h4>
+                        <p class="project-technologies">
+                            HTML5, CSS3, RWD, JS
+                        </p>
+                        <a href="" class="project-link">
+                          <i class="fa fa-link fa-2x"></i>
+                      </a>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
-        <div id = "zdjecie2" class ="zdjecia">  
+        <div id="zdjecie2" class="zdjecia">
+            <div class="item-mask">
+                <div class="item-content">
+                    <div class="item-content-inner">
+                        <h3>Lorem ipsum.</h3>
+                        <p class="project-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure molestias, hic eius aliquid omnis dolores temporibus numquam, odit ratione. Repellendus deserunt dolores obcaecati eius modi ratione, accusamus nobis, sapiente excepturi!
+                        </p>
+                        <h4>Wykorzystane technologie:</h4>
+                        <p class="project-technologies">
+                            HTML5, CSS3, RWD, JS
+                        </p>
+                        <a href="" class="project-link">
+                          <i class="fa fa-link fa-2x"></i>
+                      </a>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
-        <div id = "zdjecie3" class = "zdjecia"> 
+        <div id="zdjecie3" class="zdjecia">
+            <div class="item-mask">
+                <div class="item-content">
+                    <div class="item-content-inner">
+                        <h3>Lorem ipsum.</h3>
+                        <p class="project-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure molestias, hic eius aliquid omnis dolores temporibus numquam, odit ratione. Repellendus deserunt dolores obcaecati eius modi ratione, accusamus nobis, sapiente excepturi!
+                        </p>
+                        <h4>Wykorzystane technologie:</h4>
+                        <p class="project-technologies">
+                            HTML5, CSS3, RWD, JS
+                        </p>
+                        <a href="" class="project-link">
+                          <i class="fa fa-link fa-2x"></i>
+                      </a>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
     </section>
-    
+
     <footer>
-        <div id="kontakt">
-            <p id="name"> Magdalena
-            <span class="green">Zielińska</span>
-            </p>
-            <p id="address">
-                Sokratesa 11b m.55 <br>
-                01-909 Warszawa
-            </p>
-            <p id ="telefon">tel: 698 557 558
-            </p>
-            <p id="email">
-               email:
-                <a href="mailto:magda.zielinska@gmail.com" class="green">magda.zielinska@gmail.com</a>
-            </p>
+        <div id="kontakt_info">
+            <div id="kontakt">
+                <p id="name"> Magdalena
+                    <span class="green">Zielińska</span>
+                </p>
+                <p id="address">
+                    Sokratesa 11b m.55 <br> 01-909 Warszawa
+                </p>
+                <p id="telefon">tel: 698 557 558
+                </p>
+                <p id="email">
+                    email:
+                    <a href="mailto:magda.zielinska@gmail.com" class="green">magda.zielinska@gmail.com</a>
+                </p>
+            </div>
+            <div id="socialmedia">
+                <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-google-plus-official fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+            </div>
         </div>
-        <form id= "formularz">
-            <input type="text" name="name" placeholder ="Imię i Nazwisko">
-            <input type="email" name="email" placeholder ="E-mail">
-            <input type="text" name="wiadomosc" placeholder ="Tekst wiadomości">
-            <input type="submit" id="przycisk" value="Wyślij">
+        <form id="formularz">
+            <input type="text" name="name" placeholder="Imię i Nazwisko">
+            <input type="email" name="email" placeholder="E-mail">
+            <input type="text" id="tekstwiadomosci" name="wiadomosc" placeholder="Tekst wiadomości">
+            <input type="submit" value="Wyślij">
         </form>
-        <div id="socialmedia"></div>
+
     </footer>
 
 </body>
