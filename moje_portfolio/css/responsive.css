@@ -1,5 +1,89 @@
+@media all and (max-width: 1200px) {
+    .zdjecia {
+        width: 50%;
+    }
+    .zdjecia:last-child {
+        width: 100%;
+    }
+}
 
-@media all and (max-width: 600px)
-    float: none;
-    width: 
-    
+@media all and (max-width: 992px) {
+    .zdjecia {
+        width: 50%;
+    }
+    .zdjecia:last-child {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    nav > .toggle {
+        display: block;
+        background-color: white;
+        padding: 0 20px 0 0px;
+        color: #1ac056;
+        font-size: 20px;
+        line-height: 40px;
+        text-decoration: none;
+        border: none;
+        text-align: right;     
+    }
+    nav > ul {
+        display: none;
+        padding: 0 20px 0 0;
+    }
+    nav > #drop:checked + ul {
+        display: block;
+        background-color: white;
+    }
+    nav > ul>li {
+        display: block;
+        width: 100%;
+       
+        text-align: right;
+    }
+     #kontakt_info {
+        float: none;
+        width: 100%;
+
+    }
+    footer {
+        height: 500px;
+        ;
+        padding: 10px;
+        text-align: center;
+    }
+    #formularz {
+        float: none;
+        padding-top: 40px;
+        
+        width: 60%;
+        margin: auto;
+
+    }
+    #portret {
+        width: 60%;
+    }
+    #portret > img {
+    width: 90%;
+}
+
+
+}
+@media all and (max-width: 576px) {
+
+
+    #portret,
+    #portret img {
+
+        float: none;
+        width: 100%;
+    }
+
+    .zdjecia {
+        float: none;
+        width: 100%;
+    }
+
+   
+}
