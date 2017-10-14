@@ -107,10 +107,11 @@ section article p {
 /*Moje portfolio*/
 .zdjecia {
     width: 30%;
-    height: 280px;
+    height: 300px;
     display: inline-block;
     background-size: cover;
     border:none;
+    position: relative;
 }
 #zdjecie1 {
     background-image: url('../images/img/portfolio1.jpg')
@@ -140,10 +141,10 @@ section article p {
     opacity: 1;
 }
 
-#portfolio .zdjecia item-mask .item-content {
+#portfolio .zdjecia .item-mask .item-content {
     border: 1px solid #fff;
     margin: 10px;
-    height: 300px;
+    height: 280px;
     position: relative;
 }
 
@@ -157,19 +158,22 @@ section article p {
     padding: 5px;
     
 }
+.zdjecia a{
+    color: lawngreen;
+}
 
 /*Stopka*/    
 
 footer {
-    padding: 30px;
-    height:300px;
+    padding: 50px;
+    height:260px;
     background-color: #213b50;
     color: white;
 }
-footer  #kontakt #name {
+#kontakt #name {
     font-size: 20px;
 }
-footer #kontakt_info {
+#kontakt_info {
     float: left;
     width:48%;
 }
@@ -202,10 +206,19 @@ footer #kontakt_info {
     background: lawngreen;
 }
 
-#socialmedia i {
+#socialmedia a {
     padding: 10px;
+    color: white;
 }
 
 #kontaktsekcja {
     display: inline-block;
+}
+.copyright {
+    margin: 0;
+    height: 20px;
+    width: auto;
+    background-color: #142634;
+    color: white;
+    font-size: 13px;
 }
