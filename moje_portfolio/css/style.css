@@ -29,7 +29,7 @@ nav>ul>li {
 }
 nav>ul>li>a {
     text-decoration: none;
-    color: lawngreen;
+    color: #1ac056;
     font-size: 20px;
 }
 
@@ -75,12 +75,12 @@ section {
 }
 
 .green {
-    color: lawngreen;
+    color: #1ac056;
 }
 .podtytul {
     font-size: 20px;
 }
-
+/*Sekcja O mnie*/
 #portret {
     float:left;
     width:48%;
@@ -127,6 +127,7 @@ section article p {
     font-size: 0;
 }
 /*Magiczne akcje*/
+
 #portfolio .zdjecia .item-mask {
     background-color: rgba(42,61,79,0.8);
     width: 100%;
@@ -159,7 +160,7 @@ section article p {
     
 }
 .zdjecia a{
-    color: lawngreen;
+    color: #1ac056;
 }
 
 /*Stopka*/    
@@ -202,8 +203,8 @@ footer {
     height: 100px;
 }
 #formularz input[type=submit] {
-    width: 20%;
-    background: lawngreen;
+    width: 30%;
+    background: #1ac056;
 }
 
 #socialmedia a {
