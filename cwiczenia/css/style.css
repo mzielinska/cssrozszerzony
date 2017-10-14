@@ -1,0 +1,197 @@
+{
+    margin: 0;
+    padding: 0; 
+}
+
+/*selektor elementu*/
+p{ 
+    font-size: 20px;
+}
+
+/*selektor indetyfikatora*/
+
+#testowy {
+    background-color: aqua;
+}
+
+/*selektor klasy*/
+
+.testowy_inner {
+    color: blue;
+    font-size: 36px;
+    
+}
+
+/*selektor potomka*/
+#selektor_potomka p{
+    font-size: 25px;
+    color: red;
+}
+
+/*selektor dziecka / bezposredniego potomka*/
+
+#selektor_dziecka > p {
+    font-size: 40px;
+    color: violet;
+}
+
+/*selektor brata / braci*/
+#selektor_braci span + p {
+    color: green;
+    background-color:yellow;
+}
+
+#pseudoelementy h1::before {
+    content: 'lorem ';
+    color: red;
+}
+
+#pseudoelementy h1::after {
+    content: ' lorem ';
+    color: green;
+}
+
+#inputy input{
+    width: 99%;
+    margin-bottom: 20px;
+    
+}
+#inputy input:focus {
+    border: 3px solid red;
+}
+
+:target {
+    border: 1px solid black;
+}
+
+#lista-dzieci ul .list-item:first-child {
+
+    font-size: 20px;
+    color: red;
+}
+
+#lista-dzieci ul .list-item:last-child {
+
+    font-size: 20px;
+    color: blue;
+}
+
+#jedyne-dziecko span:only-child {
+    font-style: italic;
+    font-size: 30px;
+    color: green;
+}
+
+#div:empty {
+    display: block;
+    width: 300px;
+    height: 300px;
+    background-color: red;   
+}
+
+#kontener .inner {
+    display: inline-block;
+    height: 300px;
+    background-color: red;
+    margin-bottom: 20px;
+    width: 33%;
+    float: left;
+    margin=right: 0.5%;
+}
+#kontener .inner:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+#kontener .inner:nth-child(even) {
+    background-color: yellow;
+}
+
+
+input[type] {
+    background-color: green;
+}
+
+input[type="tel"] {
+    background-color: red;
+}
+
+
+
+input[type~="opis"] {
+    background-color: black;
+}
+
+#floated {
+    display: inline-block;
+}
+
+#floated img {
+    float: left;
+}
+.clear {
+    clear: both;
+    display: block;
+}
+    
+#tranzycje .inner_1,
+#tranzycje .inner_2 {
+    height: 300px;
+    width: 50%;
+}
+
+#tranzycje .inner_1 {
+    background-color: green;
+    transition-property: width;
+    transition-duration: 2s;  
+}
+
+#tranzycje .inner_1:hover {
+    background-color: blue;
+    width: 300px;
+    transition: all 0.4s;
+}
+    
+#tranzycje .inner_2 {
+    background-color: red;
+}
+    
+    
+
+.kwadrat {
+    width: 150px;
+    height: 150px; 
+    margin: auto;
+    border: solid #FFFFFF 5px;
+    transition-duration: 1s;  
+}
+#pierwszy{
+    background-color: red;
+    transition-property: width;
+}
+
+#drugi{
+    background-color: blue;
+        transition-property: height;
+}
+
+#trzeci{
+    background-color: green;
+    transition-property: width, height;
+}
+
+#pierwszy:hover {
+   width: 300px;
+}
+
+#drugi:hover {
+   height: 300px;
+}
+
+#trzeci:hover {
+width: 300px;
+   height: 300px;
+}
+
+
+
+

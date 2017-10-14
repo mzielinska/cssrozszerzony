@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+ 
+       <form id =formularz>
+        <label for="imie">Imię </label> <br>
+        <input id="imie" type="text" name="imie" required> <br>
+        <label for="nazwisko">Nazwisko </label> <br>
+        <input id="nazwisko" type="text" name="nazwisko" required><br>
+        <label for="mail">Email </label> <br>
+        <input id="mail" type="text" name="email" required><br>
+        <label for="telefon">Telefon </label> <br>
+        <input id="telefon" type="tel" name="telefon" placeholder="888 888 888"><br>
+        
+        <label for="miasto">Miasto </label> <br>
+        <select id="miasto">
+                  <option value="warszawa">Warszawa</option>
+                  <option value="krakow">Kraków</option>
+                  <option value="gdansk">Gdańsk</option>
+                </select>
+        <br>
+        <label> Płeć:</label>
+        <input id="kobieta" type="radio" name="plec" value="kobieta" checked>
+        <label for="kobieta">Kobieta </label><br>
+        <input id="mezczyzna" type="radio" name="plec" value="mezczyzna">
+        <label for="mezczyzna">Mężczyzna </label><br>
+        <input id="inna" type="radio" name="plec" value="inna">
+        <label for="inna">Inna </label>
+        <br><br>
+
+        <label>Dodaj komentarz: </label> <br>
+
+        <textarea id="text" name="komentarz" rows="4"></textarea> <br>
+        <input id="zgoda" type="checkbox" name="zgoda" checked> <label for="zgoda">Zgadzam się na przetwarzanie danych osobowych</label> <br>
+        <br>
+        <input type="submit" value="Send" name="wyslij">
+        
+        </form>
+
+</body>
+
+</html>

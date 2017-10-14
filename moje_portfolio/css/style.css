@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    color: #291f1a;
+}
+
+/*nawigacja*/
+
+nav{
+    width: 100%;
+    position: fixed;
+    text-align: right;
+    background-color: white;
+    z-index: 1;
+    height: 50px;
+}
+nav>ul {
+    margin:0;
+    list-style: none;
+}
+
+nav>ul>li {
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 30px;
+}
+nav>ul>li>a {
+    text-decoration: none;
+    color: lawngreen;
+    font-size: 20px;
+}
+
+/*header*/
+
+header {
+    background-image: url("../images/img/header-background.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 90vh;   
+}
+
+#headertekst {
+    color: white;
+    font-family: Roboto, sans-serif; 
+    font-weight: 300;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform:translateY(-50%);
+    text-align: center;   
+}
+#headertekst>h1 {
+    font-size: 60px;
+    font-weight: 400;
+}
+#headertekst>h2 {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.clear {
+    clear: both;
+    
+}
+
+/*section*/
+section {
+    padding: 30px;
+    background-color: #f9fcfe;
+    text-align: center
+}
+
+.green {
+    color: lawngreen;
+}
+.podtytul {
+    font-size: 20px;
+}
+
+#portret {
+    float:left;
+    width:48%;
+    margin: 0;
+}
+
+#portret img {
+    width: 40%;
+}
+section article p {
+    text-align: left;
+}
+
+/*Moje umiejetnosci*/
+
+#ikony {
+    padding: 20px;
+}
+
+#ikony figure {
+    display: inline-block;
+    
+}
+/*Moje portfolio*/
+.zdjecia {
+    width: 30%;
+    height: 280px;
+    display: inline-block;
+    background-size: cover;
+    border:none;
+}
+#zdjecie1 {
+    background-image: url('../images/img/portfolio1.jpg')
+}
+#zdjecie2 {
+    background-image: url('../images/img/portfolio2.jpg')
+}
+#zdjecie3 {
+    background-image: url('../images/img/portfolio4.jpg')
+}
+
+#portfolio {
+    font-size: 0;
+}
+/*Stopka*/    
+
+footer {
+    padding: 30px;
+    background-color: #213b50;
+    color: white;
+}
+footer  #kontakt #name {
+    font-size: 20px;
+}
+footer #kontakt 
+#formularz {
+    float: right;
+}
+#formularz input {
+    display: block;
+    width:100%;
+}
+#przycisk {
+    width: 30px;
+}
